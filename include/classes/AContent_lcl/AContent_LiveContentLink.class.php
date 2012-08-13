@@ -234,7 +234,6 @@
 
 				$xmlStructure	= (string)$match[0];
 
-
 				//var_dump($xmlStructure);
 				//$dom = simplexml_load_string((string)$xmlStructure);
 				//die('DIE');

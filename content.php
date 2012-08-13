@@ -282,6 +282,8 @@ $fp	= @file_get_contents($content_row['text']);
 if(strstr($fp, 'AContent Handbook')){
 
 	// a new dom object
+	var_dump($fp);
+	die('debug');
 	$dom		= new DomDocument('1.0', 'utf-8');
 	// load the html into the object
 	$dom->loadHTML($fp);
